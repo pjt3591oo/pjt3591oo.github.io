@@ -3,6 +3,10 @@ layout: post
 title:  "[programming]javascript arrow function과 array.prototype의 조합"
 date:   2017-04-04 22:40:05 +0900
 categories: programming
+tags: [programming javascript function arrow]
+published: true
+count: 125
+writer: pjt3591oo
 ---
 
 github를 이용하여 만들 블로그의 첫 게시글입니다.
