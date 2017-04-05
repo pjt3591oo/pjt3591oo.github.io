@@ -2,7 +2,11 @@
 layout: post
 title:  "Welcome to mung"
 date:   2017-04-04 22:10:05 +0900
-categories: jekyll update
+categories: programming
+tags: [programming]
+published: true
+writer: pjt3591oo
+count: 125
 ---
 
 블로그 주인이 개발하고 공부해온 것들을 정리해둔 곳 입니다.
