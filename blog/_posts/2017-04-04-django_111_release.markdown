@@ -9,6 +9,8 @@ writer: pjt3591oo
 count: 125
 ---
 
+April 4, 2017 Django realse notes 일부
+
 ## 호환성
 
 Django 1.11은 파이썬 **2.7, 3.4, 3.5, 3.6**에서 작동합니다. 3.6을 지원하는 첫 Django 버전입니다. 각 버전별 마지막 릴리스를 사용하기를 추천합니다.
