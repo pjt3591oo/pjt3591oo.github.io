@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<style>
+    .catbloc:not(:target) {
+    display: none;
+}
+</style>
+
+<nav>
+    <a href="#allposts">All Categories</a>
+    {% for category in site.categories %}
+        <a href="#{{ category | first | remove:' ' }}"><strong>{{ category | first }}</strong></a> {% if forloop.last %}.{% else %}, {% endif %}
+    {% endfor %}
+</nav>
+
+<div class="catbloc" id="allposts">
+    <h2>All posts</h2>
+
+        <ul>
+            {% for post in site.posts %}
+                <li>
+                    <a href="/blog/{{ post.url }}">
+                    {{ post.title }},
+                    <time>{{ post.date | date: "%-d %B %Y" }} </time>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+</div>
+
+{% for category in site.categories %}
+    <div class="catbloc" id="{{ category | first | remove:' ' }}">
+        <h2>{{ category | first }}</h2>
+
+        <ul>
+           {% for posts in category %}
+             {% for post in posts %}
+               {% if post.url %}
+                 <li>
+                   <a href="/blog/{{ post.url }}">
+                     {{ post.title }},
+                     <time>{{ post.date | date: "%-d %B %Y" }} </time>
+                   </a>
+                 </li>
+               {% endif %}
+             {% endfor %}
+           {% endfor %}
+        </ul>
+    </div>
+{% endfor %}
