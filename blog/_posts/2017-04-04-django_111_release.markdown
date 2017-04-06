@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[news] Django 1.11 Release"
+title:  "Django 1.11 Release"
 date:   2017-04-06 08:03:05 +0900
 categories: news
-tags: [programming]
+tags: [programming, python, django]
 published: true
 writer: pjt3591oo
 count: 125

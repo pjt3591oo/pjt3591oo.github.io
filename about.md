@@ -25,9 +25,9 @@ jekyll을 활용한 페이지는 커스텀이 좀 자유롭지 않을까 하는 
 
 ## 기술 스택
 
->> 블로그 주인놈은 무엇을 다룰 줄 아나?
+>> 주인놈은 무엇을 다룰 줄 아나?
 
-- Language : C, C++, javascript, python, Web Develop(Html, Css, jquery)
+- Language : C, C++, javascript(+chrome extension), python, Web Develop(Html, Css, jquery)
 
 - Framrwork : node.js-express, 자체 제작 crawler, vue.js, cocos2d-x
 
@@ -35,7 +35,9 @@ jekyll을 활용한 페이지는 커스텀이 좀 자유롭지 않을까 하는 
 
 - cloud : AWS, c9
 
-- Etc: Nginx, Docker, Git or Bitbucket, jekyll
+- Etc: Nginx, Docker, Git or Bitbucket, jekyll, markdown
+
+- os: window, mac os, linux-ubuntu, linux-kali
 
 - dev tools: vim, atom, pycharm, VS(Visual Studio) 
 
@@ -45,7 +47,7 @@ jekyll을 활용한 페이지는 커스텀이 좀 자유롭지 않을까 하는 
 
 ## 운영중인 다른 채널
 
->> 블로그 주인놈을 만나려면 어디를 가야하나?
+>> 주인놈을 만나려면 어디를 가야하나?
 
 [주인놈의 github](https://github.com/pjt3591oo)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[programming]javascript arrow function과 array.prototype의 조합"
+title:  "javascript arrow function과 array.prototype의 조합"
 date:   2017-04-04 22:40:05 +0900
 categories: programming
 tags: [programming javascript function arrow]

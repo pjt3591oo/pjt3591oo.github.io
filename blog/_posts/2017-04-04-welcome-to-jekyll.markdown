@@ -2,8 +2,8 @@
 layout: post
 title:  "Welcome to mung"
 date:   2017-04-04 22:10:05 +0900
-categories: programming
-tags: [programming]
+categories: blog
+tags: []
 published: true
 writer: pjt3591oo
 count: 125
