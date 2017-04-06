@@ -15,7 +15,7 @@ title: Category
         <ul>
             {% for post in site.posts %}
                 <li>
-                    <a href="/blog/{{ post.url }}">
+                    <a href="/{{ post.url }}">
                     {{ post.title }},
                     <time>{{ post.date | date: "%-d %B %Y" }} </time>
                     </a>
@@ -32,7 +32,7 @@ title: Category
              {% for post in posts %}
                {% if post.url %}
                  <li>
-                   <a href="/blog/{{ post.url }}">
+                   <a href="/{{ post.url }}">
                      {{ post.title }},
                      <time>{{ post.date | date: "%-d %B %Y" }} </time>
                    </a>
