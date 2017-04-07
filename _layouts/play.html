@@ -1,0 +1,52 @@
+---
+layout: page
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <style>
+        #ground{
+            font-size:0;
+            position: inherit;
+        }
+
+        .se{
+            display: inline-block;
+            width: 33%;
+            font-size:12px;
+            position:relative;
+        }
+        
+        .se h3{
+            position: absolute;
+            top: 38%;
+            left: 38%;
+        }
+
+        .se:before{
+            content: '123';
+            position: absolute;
+            display:none;
+        }
+
+        .se:hover:before{
+             display:block;
+             position:absolute;
+         }
+
+         .se:hover{
+             opacity: 0.5;
+             transition:  1s;
+         }
+
+
+    </style>
+</head>
+<body>
+
+    {{ content }}
+
+</body>
+</html>

@@ -26,9 +26,9 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 theme: minima
-gems: [jekyll-feed]
+gems: [jekyll-feed, jekyll-paginate, jekyll-paginate-categories]
 exclude:
   - Gemfile
   - Gemfile.lock
-paginate: 1
-paginate_path: "/blog/page:num/"
+paginate: 3
+paginate_path: "/page:num/"
