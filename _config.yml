@@ -30,5 +30,5 @@ gems: [jekyll-feed, jekyll-paginate, jekyll-paginate-categories]
 exclude:
   - Gemfile
   - Gemfile.lock
-paginate: 3
+paginate: 5
 paginate_path: "/page:num/"
