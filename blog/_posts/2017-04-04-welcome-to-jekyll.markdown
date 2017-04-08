@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to mung"
 date:   2017-04-04 22:10:05 +0900
-categories: blog
+categories: intro
 tags: []
 published: true
 writer: pjt3591oo
@@ -26,4 +26,3 @@ count: 125
 빠른시일 내에 디비들에 대해서 구조적인 경우와 특징을 살펴보도록 하겠습니다.
 
 [jekyll-docs]: pjt3591oo@gmail.com
-

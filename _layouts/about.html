@@ -9,7 +9,61 @@ layout: page
           .linkedin-profile{
               margin-top: 20px;
           }
+          #ground{
+              font-size:0;
+              position: inherit;
+          }
+
+          .section{
+              display: inline-block;
+              width: 23%;
+              font-size:12px;
+              position:relative;
+              text-align:center;
+          }
+
+          .section img{
+              height: auto;
+              padding: 5px;
+          }
+          .section h3{
+              position: absolute;
+              top: 38%;
+              left: 38%;
+          }
+
+          .section:before{
+              position: absolute;
+              display:none;
+          }
+
+          .section:hover:before{
+              content:"방문하기";
+              display:block;
+              position:absolute;
+           }
+
+          .section:hover{
+
+               opacity: 0.5;
+               transition:  1s;
+          }
+
+          .oth_content{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size:14px;
+          }
+
+          .oth_content div{
+            padding: 5px;
+          }
+
+          .oth_content img{
+            width: 25px;
+          }
       </style>
+
   </head>
   <body>
     {{ content }}
