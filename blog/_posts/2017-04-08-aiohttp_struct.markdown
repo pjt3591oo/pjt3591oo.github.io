@@ -31,7 +31,7 @@ count: 125
 - DB 모듈은 개인 성향에 맞추어서 설치를 해준다.(DB 모듈에 대해서는 문서 아래부분에서 좀더 자세히 설명하겠다.)
 (orm을 쓸경우 `sqlalchemy`가 대표적이고 row query를 쓴다면 `pymysql`이나 `MySQLdb`가 대표적이다.)
 
-> [How To Connected Using Sqlalchemy](http://blog.naver.com/pjt3591oo/220962755783)
+> [How To Connect Using Sqlalchemy](http://blog.naver.com/pjt3591oo/220962755783)
 
 ### 모듈설치 및 python 설정
 
