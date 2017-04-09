@@ -2,7 +2,7 @@
 layout: post
 title:  "sequelize - Working With Legacy Tables[번역]"
 date:   2017-04-09 16:36:05 +0900
-categories: sequelize
+categories: node.js
 tags: [programming, javascript, sequelize, orm, node.js]
 published: true
 writer: pjt3591oo
@@ -10,7 +10,6 @@ count: 125
 ---
 
 > 시작 하기 앞서 해당 글은 sequelize document를 직접 번역함을 알립니다. 영어를 많이 잘하지 못하여 오역이 있을 수 있습니다.
-
 
 
 상자 밖에서 Sequelize는 독선적인 것은 사소해 보일 수 있고, 테이블 그리고 필드네임으로 정의된(그렇지 않으면 생성된)것을 여러분의 어플리케이션으로 전달해 줄 것입니다.

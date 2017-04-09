@@ -2,7 +2,7 @@
 layout: post
 title:  "sequelize - Usage[번역]"
 date:   2017-04-09 16:41:05 +0900
-categories: sequelize
+categories: node.js
 tags: [programming, javascript, sequelize, orm, node.js]
 published: true
 writer: pjt3591oo

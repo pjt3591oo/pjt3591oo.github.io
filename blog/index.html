@@ -1,0 +1,80 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
+---
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+  .post-list{
+    display: none;
+  }
+  .pagination{
+    width:100%;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom:50px;
+    font-size:17px;
+  }
+  li{
+    list-style: none;
+  }
+  c{
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+  }
+</style>
+
+<p>
+    멍개의 홈페이지에 방문해 주셔서 감사합니다.
+
+  <b>한동안 글이 추가 되지 않는다면 주인놈의 게으름을 욕해주세요</b>
+
+    이놈의 주인놈은 요즘 <c>&nbsp;hbase </c>다룬다고 정신이 안드로메다로 떠나갔습니다(ㅠㅠ)
+</p>
+
+
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">[{{post.categories[1] | remove: "blog"}}] {{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">Post CreatedAt: {{ post.date }}</span>
+  </p>
+{% endfor %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  <ul class="pager">
+      {% if paginator.previous_page %}
+        <li>
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Prev</a>
+        </li>
+      {% else %}
+        <span>Prev</span>
+      {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+          <em>{{ page }}</em>
+      {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+      {% if paginator.next_page %}
+        <li>
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+        </li>
+      {% else %}
+          <span>Next</span>
+      {% endif %}
+  </ul>
+</div>
+{% endif %}
+
