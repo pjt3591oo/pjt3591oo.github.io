@@ -27,6 +27,8 @@ jekyll을 활용한 페이지는 커스텀이 좀 자유롭지 않을까 하는 
 
 - Language : C, C++, javascript(+chrome extension), python, Web Develop(Html, Css, jquery)
 
+- GUI : pyqt
+
 - Framrwork : node.js-express, 자체 제작 crawler, vue.js, cocos2d-x
 
 - Database : mysql(mariadb), mongodb, dynamodb, hbase, redis
