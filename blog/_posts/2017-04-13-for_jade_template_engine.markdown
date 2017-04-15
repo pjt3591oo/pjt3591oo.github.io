@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jade Template Engine을 활용한 반복되는 코드 줄이기"
+title:  "Jade Template Engine을 활용한 효율적 관리"
 date:   2017-04-15 10:39:05 +0900
 categories: node.js
 tags: [programming, node.js, jade]
