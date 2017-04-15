@@ -242,7 +242,7 @@ html
 **business/business_logic1/error.jade**와 **business/business_logic1/index.jade**에서 layout 호출 부분을 수정을 해보도록 하겠습니다.
 (디렉토리 생성을 하였기 때문에 경로를 바꾸어 주어야 합니다.)
 
-* `error.jade`
+* error.jade
 
 ```jade
 extends ../../layouts/business_logic1_layout
@@ -253,7 +253,7 @@ block content
   pre #{error.stack}
 ```
 
-* `index.jade`
+* index.jade
 
 ```jade
 extends ../../layouts/business_logic1_layout
