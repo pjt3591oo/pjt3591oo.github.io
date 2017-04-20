@@ -5,7 +5,7 @@ date:   2017-04-09 16:36:05 +0900
 categories: node.js
 tags: [programming, javascript, sequelize, orm, node.js]
 published: true
-writer: pjt3591oo
+writer: 박정태
 count: 125
 ---
 

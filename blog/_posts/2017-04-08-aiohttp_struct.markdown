@@ -5,7 +5,8 @@ date:   2017-04-08 10:30:05 +0900
 categories: framework
 tags: [programming, python, server, aiohttp]
 published: true
-writer: pjt3591oo
+writer: 박정태
+descript: python 경량 서버 프레임 워크인 apihttp에 대한 boilerplate작성 및 설명입니다.
 count: 125
 ---
 

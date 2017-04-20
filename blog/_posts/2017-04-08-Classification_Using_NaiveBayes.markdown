@@ -5,7 +5,7 @@ date:   2017-04-08 10:55:05 +0900
 categories: machine-learning
 tags: [programming, javascript, node.js, framework, server]
 published: true
-writer: pjt3591oo
+writer: 박정태
 count: 125
 ---
 

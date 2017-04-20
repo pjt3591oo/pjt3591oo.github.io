@@ -5,11 +5,12 @@ date:   2017-04-06 08:03:05 +0900
 categories: news
 tags: [programming, python, django]
 published: true
-writer: pjt3591oo
+writer: 박정태
+descript: Django1.11 버전 release note입니다
 count: 125
 ---
 
-April 4, 2017 Django realse notes 일부
+April 4, 2017 Django release notes 일부
 
 ## 호환성
 

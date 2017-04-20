@@ -23,26 +23,26 @@ layout: home
   li{
     list-style: none;
   }
-  c{
-    background-color: rgb(204, 204, 204);
-    border-radius: 5px;
-  }
+  /*c{*/
+    /*background-color: rgb(204, 204, 204);*/
+    /*border-radius: 5px;*/
+  /*}*/
+
 </style>
 
-<p>
-    멍개의 홈페이지에 방문해 주셔서 감사합니다.
-
-  <b>한동안 글이 추가 되지 않는다면 주인놈의 게으름을 욕해주세요</b>
-
-    이놈의 주인놈은 요즘 <c>&nbsp;hbase </c>다룬다고 정신이 안드로메다로 떠나갔습니다(ㅠㅠ)
-</p>
-
-
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">[{{post.categories[1] | remove: "blog"}}] {{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">Post CreatedAt: {{ post.date }}</span>
-  </p>
+  <div class="p">
+      <h3 style="margin-top:50px">
+          <a style="color:#4d5256; opacity: 0.8" href="{{ post.url }}">[{{post.categories[1] | remove: "blog"}}] {{ post.title }}</a>
+      </h3>
+      <h4 style="color:#4d5256; opacity: 0.6; margin-top:30px">
+        {{post.descript}}
+      </h4>
+      <p class="author">
+        <span style="color:#4d5256; opacity: 0.4" class="date">{{ post.date  | remove: "+0900"}}  &nbsp;&nbsp;|&nbsp;&nbsp;  {{post.writer}}</span>
+      </p>
+      <hr style="margin-top:50px">
+  </div>
 {% endfor %}
 
 <!-- Pagination links -->

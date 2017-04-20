@@ -5,7 +5,7 @@ date:   2017-04-15 10:39:05 +0900
 categories: node.js
 tags: [programming, node.js, jade]
 published: true
-writer: pjt3591oo
+writer: 박정태
 count: 125
 ---
 

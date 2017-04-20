@@ -6,7 +6,8 @@ categories: programming
 tags: [programming javascript function arrow]
 published: true
 count: 125
-writer: pjt3591oo
+descript: 'javascript의 화살표 함수에 대한 글입니다.'
+writer: 박정태
 ---
 
 github를 이용하여 만들 블로그의 첫 게시글입니다.

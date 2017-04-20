@@ -5,7 +5,7 @@ date:   2017-04-08 10:08:05 +0900
 categories: programming
 tags: [programming, javascript, synchronous, Asynchronous]
 published: true
-writer: pjt3591oo
+writer: 박정태
 count: 125
 ---
 

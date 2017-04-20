@@ -5,7 +5,8 @@ date:   2017-04-06 19:03:05 +0900
 categories: database
 tags: [database]
 published: true
-writer: pjt3591oo
+writer: 박정태
+descript: Database에 대한 설명입니다.
 count: 125
 ---
 

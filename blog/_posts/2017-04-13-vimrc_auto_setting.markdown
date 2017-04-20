@@ -5,7 +5,7 @@ date:   2017-04-13 08:26:05 +0900
 categories: tools
 tags: [tools, vim]
 published: true
-writer: pjt3591oo
+writer: 박정태
 count: 125
 ---
 

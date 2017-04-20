@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "제너레이터(generator)를 통해 효율적인 코드작성"
+title:  "제너레이터(generator)를 활용한 효율적인 코드작성"
 date:   2017-04-19 22:58:05 +0900
 categories: programming
 tags: [programming python]
 published: true
 count: 125
-writer: pjt3591oo
+descript: '효율적인 코드 작성을 위한 generator 사용방법 입니다.'
+writer: 박정태
 ---
 
 오늘은 generator에 대해서 알아볼까 합니다
