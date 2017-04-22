@@ -195,7 +195,7 @@ myResourceGroup라는 리소스 그룹에 myVM이라는 가상 컴퓨터를 생�
 
 ssh로 접속하기 위한 키는 ssh-keygen이라는 툴을 이용해서 만들 수 있습니다.
 
-[ssh-keygen을 이용하여 ssh 키파일 생성하는 방법](!https://pjt3591oo.github.io/blog/tools/2017/04/21/how_to_create_ssh_key.html)
+[ssh-keygen을 이용하여 ssh 키파일 생성하는 방법](https://pjt3591oo.github.io/blog/tools/2017/04/21/how_to_create_ssh_key.html)
 
 ## 가상 컴퓨터의 포트 열기
 
