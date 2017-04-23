@@ -190,6 +190,7 @@ $ service apache2 restart
 그럼 로그인창이 뜨게 되는데
 
 ID : root
+
 PASSWORD : 관리자 비밀번호
 
 여기까지 apache를 이용해서 php를 제공을 해주고 phpmyadmin을 이용하여 디비를 관리할 수 있도록 셋팅을 해보았습니다.
