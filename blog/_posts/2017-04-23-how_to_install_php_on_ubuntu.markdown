@@ -155,7 +155,8 @@ Deconfigure database for phpmyadmin with dbconfig-common? [yes/no]
 yes를 입력해줍니다.
 
 
-```Please provide a password for phpmyadmin to register with the database server. If left blank, a random password will be generated.
+```bash
+Please provide a password for phpmyadmin to register with the database server. If left blank, a random password will be generated.
 
 MySQL application password for phpmyadmin:
 
