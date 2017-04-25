@@ -13,13 +13,15 @@ writer: 박정태
 - remote url 확인하기
 
 ```bash
-git remote -v
+$ git remote -v
 ```
+
+로컬 브랜치에서 push, fetch를 할 경우 어느 원격 저장소로부터 작업을 할지에 대한 정보를 보여준다.
 
 - remote url 변경
 
 ```bash
-git remote set-url origin [new-url]
+$ git remote set-url origin [new-url]
 ```
 
 매우 간단.
