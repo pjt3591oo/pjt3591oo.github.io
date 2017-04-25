@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "python working directory를 바꿔보자"
-date:   2017-04-25 08:19:05 +0900
+date:   2017-04-25 18:19:05 +0900
 categories: programming
 tags: [programming, python]
 published: true
